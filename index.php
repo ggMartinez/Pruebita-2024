@@ -7,7 +7,10 @@
 </head>
 <body>
 
-    <?php echo "Hola" ?>
+    <?php 
+        require "funciones.php";
+        mostrarHora();
+    ?>
 
 </body>
 </html>
