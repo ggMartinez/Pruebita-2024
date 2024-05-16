@@ -3,7 +3,7 @@
     $ipDeBaseDeDatos = "192.168.1.10";
 
     function mostrarHora(){
-        return sysdate();
+        return sysdate("HH:MM:ss");
     }
 
     function niIdea(){
